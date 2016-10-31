@@ -117,5 +117,5 @@ console.log(config.apiKey);
 ```
 ![Go Console](./img/Serverless_firebase06.png)
 
-훌륭하게 출력이 되는 군요. 주의할 점은 .env 에 등록한 변수는 꼭 node 서버를 재기동 시켜주
-셔야 한다는 것입니다.
+훌륭하게 출력이 되는 군요. 주의할 점 두가지는 create-react-app 의 react-scripts 버전이 0.5.0
+이상이어야 .env 에 등록한 변수는 꼭 node 서버를 재기동 시켜주셔야 한다는 것입니다.

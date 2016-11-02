@@ -186,7 +186,7 @@ onPaste(event){
       if(that.detectURL(text)){
         that.setState({embedlyUrl:text});
       }
-  })
+  }) 
 }
 ```
 그리고 onPaste와 editorChange 모두 편집기의 텍스트 값에 들어가는 URL을 받아서 state 값에 저장을
